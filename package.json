@@ -1,0 +1,30 @@
+{
+  "name": "codility_lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "build": "rm -rfv dist && babel src --out-dir dist --ignore \"src/**/*.spec.js\",\"src/**/*.test.js\" --minified"
+  },
+  "dependencies": {
+    "crawler": "^1.2.2",
+    "moment": "^2.27.0",
+    "performance-now": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@types/restify-errors": "^4.3.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^23.13.2",
+    "iconv-lite": "^0.5.1",
+    "nodemon": "^2.0.3",
+    "prettier-eslint": "^9.0.1"
+  }
+}
