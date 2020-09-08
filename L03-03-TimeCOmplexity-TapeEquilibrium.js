@@ -39,7 +39,6 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [2..100,000];
 each element of array A is an integer within the range [−1,000..1,000].
-Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
 */
 /*
 N 개의 정수로 구성된 비어 있지 않은 배열 A가 제공됩니다. 배열 A는 테이프의 숫자를 나타냅니다.
